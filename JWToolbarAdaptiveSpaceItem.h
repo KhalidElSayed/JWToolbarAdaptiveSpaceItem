@@ -1,6 +1,5 @@
 //
 //  JWToolbarAdaptiveSpaceItem.h
-//  Bookshelf
 //
 //  Created by John Wells on 7/14/13.
 //  Copyright (c) 2013 John Wells. All rights reserved.
