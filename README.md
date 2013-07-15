@@ -4,7 +4,7 @@
 `JWToolbarAdaptiveSpaceItem` is an `NSToolbarItem` subclass that acts as an adaptive spacer for OS X applications with a toolbar and source list or other pane-like structure. Once set up, it will automatically adjust its width to match the width of an attached `NSView` (most likely the left pane of an `NSSplitView`) as can be seen in applications like Apple Mail.
 
 ###Usage
-1. Add `JWToolbarAdaptiveSpaceItem`'s .h and .m files to your Xcode project
+1. Add `JWToolbarAdaptiveSpaceItem` and `JWClickThroughView`'s .h and .m files to your Xcode project
 2. Add a blank `NSToolbarItem` to your window's toolbar
 3. With the blank toolbar item selected, select the Identity inspector and change the item's class to `JWToolbarAdaptiveSpaceItem`
 4. Connect the `linkedView` outlet of the spacer item to the appropriate `NSSplitView` pane or view
